@@ -28,7 +28,7 @@ Sistema web para gerenciamento e controle de visitantes em empresas e organizaç
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend**: PHP 7.4+
+- **Backend**: PHP 8+
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Framework CSS**: Bootstrap 5.3.0
 - **Banco de Dados**: MySQL
