@@ -1,0 +1,99 @@
+:root {
+    --color-primary: #2C3E50;
+    --color-secondary: #34495E;
+    --color-accent: #5D6D7E;
+    --color-light: #F8F9FA;
+    --color-text: #2C3E50;
+    --color-text-light: #6C757D;
+    --bs-primary: #0d6efd;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ECF0F1, #BDC3C7);
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.login-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo-svg {
+    width: 80px;
+    height: 80px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.login-card h4 {
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.login-card p {
+    color: var(--color-text-light);
+    margin-bottom: 30px;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select {
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+    padding: 1rem 0.75rem;
+    border-radius: 8px;
+}
+
+.form-floating > label {
+    padding: 1rem 0.75rem;
+}
+
+.btn-culture-login {
+    background-color: var(--bs-primary);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-culture-login:hover {
+    background-color: #0b5ed7;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.4);
+}
+
+.btn-link-back {
+    color: var(--color-text-light);
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.btn-link-back:hover {
+    color: var(--bs-primary);
+}
