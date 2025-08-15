@@ -110,5 +110,3 @@ define('DB_PASS', 'sua_senha');
 1. Acesse "Usuários" no menu
 2. Cadastre novos usuários do sistema
 3. Gerencie permissões e senhas
-
-## 📁 Estrutura do Projeto
